@@ -115,4 +115,15 @@ python3 manage.py runserver
         </div>
     </div>
 </div>
+<div class="btt-button shadow-sm rounded-0 border border-black">
+    <a class="btt-link d-flex h-100">
+        <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
+    </a>	
+</div>
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <script src="{% static 'js/return_to_top.js' %}"></script>
+    <script src="{% static 'js/sort_function.js' %}"></script>
 {% endblock %}
