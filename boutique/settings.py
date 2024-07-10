@@ -80,7 +80,7 @@ TEMPLATES = [
     },
 ]
 
-MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionsStorage'  # This line is required if using github.
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'  # This line is required if using github.
 
 AUTHENTICATION_BACKENDS = (
     # Needed to login by usernames in Django admin, regardless of 'AllAuth'
