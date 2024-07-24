@@ -18,7 +18,7 @@ class UserProfileForm(forms.ModelForm):
             'default_street_address2': 'Street Address 2',
             'default_town_or_city': 'Town or City',
             'default_county': 'County or State',
-            'default_postcode': 'Postcode',
+            'default_postcode': 'Postcode or Zip',
             'default_phone_number': 'Phone Number',
         }
 
